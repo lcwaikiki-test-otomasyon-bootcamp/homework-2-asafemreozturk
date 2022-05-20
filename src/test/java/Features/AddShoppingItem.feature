@@ -1,10 +1,5 @@
-# homework-2
-Ödev 2 : Yazılan mimaride 1 adet test yazmanız ve tamamlamanız. Olabildiğince uzun bir şey yazın. Login ol, ürün seç, sepete ekle, sepeti kontrol et gibi uzun bir case mesela. Sadece 1 case ile sınırlı kalmayın.
-
-#Test with Selenium And Cucumber
-
 Feature: Add shopping item
-
+@cart
   Scenario: Add shopping item
     Given Navigate to the Amazon website
     And Search for product
@@ -12,4 +7,4 @@ Feature: Add shopping item
     And Select the first product from list
     When Add product to the cart
     Then Control that the product has been successfully added to cart
-    Then Return to cart
+    And Return to cart

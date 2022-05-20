@@ -1,0 +1,112 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 3,
+        "name": "Add shopping item",
+        "description": "",
+        "id": "add-shopping-item;add-shopping-item",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 4325443400,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "Navigate to the Amazon website",
+            "match": {
+              "location": "AddShoppingItem.Navigate_To_The_Website()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 531188500,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "Search for product",
+            "match": {
+              "location": "AddShoppingItem.Search_For_Product()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1444793700,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "Click search button",
+            "match": {
+              "location": "AddShoppingItem.Click_Search_Button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2162251200,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "Select the first product from list",
+            "match": {
+              "location": "AddShoppingItem.Select_The_First_Product_From_List()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1005286700,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "Add product to the cart",
+            "match": {
+              "location": "AddShoppingItem.Add_Product_To_The_Cart()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 44994800,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "Control that the product has been successfully added to cart",
+            "match": {
+              "location": "AddShoppingItem.The_Product_Successfully_Added_To_Cart()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 2295390100,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "Return to cart",
+            "match": {
+              "location": "AddShoppingItem.Return_To_Cart()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "line": 2,
+            "name": "@cart"
+          }
+        ]
+      }
+    ],
+    "name": "Add shopping item",
+    "description": "",
+    "id": "add-shopping-item",
+    "keyword": "Feature",
+    "uri": "AddShoppingItem.feature"
+  }
+]

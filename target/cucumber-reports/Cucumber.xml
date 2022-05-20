@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="1" time="11.809348">
+<testcase classname="Add shopping item" name="Add shopping item" time="11.809348">
+<system-out><![CDATA[Given Navigate to the Amazon website........................................passed
+And Search for product......................................................passed
+And Click search button.....................................................passed
+And Select the first product from list......................................passed
+When Add product to the cart................................................passed
+Then Control that the product has been successfully added to cart...........passed
+And Return to cart..........................................................passed
+]]></system-out>
+</testcase>
+</testsuite>
